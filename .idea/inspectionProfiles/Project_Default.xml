@@ -1,0 +1,34 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+          <option value="E231" />
+          <option value="W292" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="pygame" />
+          <option value="pygame.sprite" />
+          <option value="pygame.init" />
+          <option value="pygame.display" />
+          <option value="pygame.time" />
+          <option value="pygame.Surface" />
+          <option value="pygame.key" />
+          <option value="pygame.K_a" />
+          <option value="pygame.K_d" />
+          <option value="pygame.K_w" />
+          <option value="pygame.K_s" />
+          <option value="pygame.event" />
+          <option value="pygame.QUIT" />
+          <option value="pygame.quit" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

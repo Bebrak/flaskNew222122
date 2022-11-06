@@ -1,7 +1,7 @@
 from flask import Flask, render_template, flash, redirect
 from forms import LoginForm
 
-from config import Config
+from config12345 import Config
 
 app = Flask(__name__)
 app.config.from_object(Config)
@@ -58,6 +58,11 @@ def petya():  # put application's code here
 # def show_post(post_id):  # put application's code here
 #     return f"<h1>Горячая и свежая новость № {post_id}</h1>"
 
+
+
+@app.errorhandler(404)
+def page_not_found(error):
+    return render_template('page404.html', title='Страница не найдена')
 
 if __name__ == '__main__':
     app.run(debug=True)
